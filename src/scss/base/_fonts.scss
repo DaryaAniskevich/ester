@@ -1,0 +1,22 @@
+@font-face {
+  font-family: "Forum";
+  font-style: normal;
+  font-weight: 400;
+  src: local("Forum Regular"), url("../../fonts/Forum.woff") format("woff"),
+    url("../../fonts/Forum-Regular.ttf") format("ttf");
+}
+@font-face {
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 400;
+  src: local("Roboto Regular"),
+    url("../../fonts/Roboto-Regular.woff") format("woff"),
+    url("../../fonts/Roboto-Regular.ttf") format("ttf");
+}
+@font-face {
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 100;
+  src: local("Roboto Thin"), url("../../fonts/Roboto-Thin.woff") format("woff"),
+    url("../../fonts/Roboto-Thin.ttf") format("ttf");
+}

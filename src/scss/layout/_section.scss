@@ -1,0 +1,41 @@
+.l-section {
+  padding: 140px 0 140px;
+  @include screen-max($large) {
+    padding: 70px 0 70px;
+  }
+  @include screen-max($medium) {
+    padding: 60px 0 100px;
+  }
+  @include screen-max($small) {
+    padding: 42px 0 42px;
+  }
+  &-heading {
+    width: 100%;
+    max-width: 1440px;
+    margin: 0 auto;
+    margin-bottom: 75px;
+    @include screen-max($large) {
+      max-width: 984px;
+      padding: 0 20px;
+      margin-bottom: 60px;
+    }
+    @include screen-max($medium) {
+      max-width: 728px;
+      margin-bottom: 40px;
+    }
+    @include screen-max($small) {
+      max-width: 380px;
+    }
+    &:after {
+      content: "";
+      display: block;
+      width: 100%;
+      height: 3px;
+      background-color: $dark-red;
+      margin-top: 25px;
+      @include screen-max($large) {
+        margin-top: 20px;
+      }
+    }
+  }
+}

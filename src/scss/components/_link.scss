@@ -1,0 +1,12 @@
+.c-link {
+  color: $black;
+  @media (prefers-color-scheme: dark) {
+    color: $white;
+  }
+  &:hover {
+    color: $font-gold;
+  }
+  &:active {
+    color: $font-dark-gold;
+  }
+}

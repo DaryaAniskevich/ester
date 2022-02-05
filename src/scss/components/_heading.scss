@@ -1,0 +1,18 @@
+.c-heading {
+  @include heading;
+  font-size: 80px;
+  line-height: 90px;
+  color: $font-gold;
+  @include screen-max($large) {
+    font-size: 50px;
+    line-height: 75px;
+  }
+  @include screen-max($medium) {
+    font-size: 40px;
+    line-height: 60px;
+  }
+  @include screen-max($small) {
+    font-size: 28px;
+    line-height: 40px;
+  }
+}
